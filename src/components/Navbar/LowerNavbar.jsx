@@ -109,11 +109,11 @@ const LowerNavbar = () => {
                         margin: "3%",
                         color: "#9a69cb",
                         [theme.breakpoints.down("sm")]: {
-                          mt: "-65%",
+                          mt: "-8%",
                         },
                         [theme.breakpoints.down("xxs")]: {
                           marginLeft: "50%",
-                          mt: "-70%",
+                          mt: "-10%",
                         },
                       }}
                     />
