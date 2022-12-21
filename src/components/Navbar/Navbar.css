@@ -1,0 +1,10 @@
+body {
+  margin: 0;
+}
+.lowerNav {
+  background-color: rgba(154, 105, 203, 0.1) !important;
+}
+
+.btn_mob {
+  border-color: #9a69cb !important;
+}
