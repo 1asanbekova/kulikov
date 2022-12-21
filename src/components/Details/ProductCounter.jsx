@@ -36,37 +36,7 @@ const ProductCounter = () => {
           padding: "20px",
         }}
       >
-        <Box
-          className="counter_button"
-          component="div"
-          sx={{
-            border: "1px solid",
-            width: "70px",
-            height: "28px",
-            marginTop: "1px",
-            marginRight: "15px",
-          }}
-        >
-          <div>
-            <RemoveIcon
-              className="remove_icon"
-              onClick={() => decrement()}
-              sx={{ marginRight: "6px" }}
-            />
-          </div>
-          <div>
-            <div>{count}</div>
-          </div>
-          <div>
-            <AddIcon
-              className="add_icon"
-              onClick={increment}
-              sx={{ marginLeft: "6px" }}
-            />
-          </div>
-        </Box>
-
-        <Box sx={{ width: "10%", backgroundColor: "rgb(77, 17, 111)" }}>
+        <Box sx={{ backgroundColor: "rgb(77, 17, 111)" }}>
           <IconButton onClick={() => addProductToWish(productDetails)}>
             <BookmarkBorderIcon sx={{ color: "white" }} />
           </IconButton>
@@ -96,8 +66,8 @@ const ProductCounter = () => {
             onClick={() => addProductToCart(productDetails)}
             sx={{
               backgroundColor: "rgb(77, 17, 111)",
-              ml: 3,
-              width: "80%",
+              ml: 5,
+              width: "70%",
               ":hover": {
                 backgroundColor: "white",
                 border: "2px solid #9c69cb",
