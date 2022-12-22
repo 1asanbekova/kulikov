@@ -187,9 +187,7 @@ function AddProduct() {
         </FormControl>
 
         <TextField
-          onChange={(e) => {
-            setFile(e.target.files[0]);
-          }} //! upload
+          onChange={(e) => setFile(e.target.files[0])} //! upload
           sx={{
             borderColor: "black",
             backgroundColor: "white",
